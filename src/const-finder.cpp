@@ -31,7 +31,7 @@ int main()
         exit(1);
     }
 
-    fprintf(f, "Input,Output\n");
+    fprintf(f, "Input,Output 1,Output 2\n");
 
     double d, r1, r2;
     long c1, c2;
