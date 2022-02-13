@@ -1,7 +1,7 @@
 /* 
-const-tester.cpp
-for testing a constant given a number
-runs in the console
+    const-tester.cpp
+    for testing a constant given a number
+    runs in the console
 */
 
 #include <iostream>

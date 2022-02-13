@@ -1,8 +1,8 @@
 /* 
-fast-inv-sqrt.cpp
-quake 3 implementation of fast inverse square root
-runs the function for many input values
-prints output to an excel-readable .csv file
+    fast-inv-sqrt.cpp
+    quake 3 implementation of fast inverse square root
+    runs the function for many input values
+    prints output to an excel-readable .csv file
 */
 
 #include <iostream>
@@ -11,7 +11,7 @@ prints output to an excel-readable .csv file
 #define INTERVAL 0.0625F                        // powers of 2 to reduce floating point precision errors
 
 /*
-the following function is taken verbatim from the quake 3 source code
+    the following function is taken verbatim from the quake 3 source code
 */
 
 float Q_rsqrt( float number )
