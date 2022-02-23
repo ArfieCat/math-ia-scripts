@@ -14,10 +14,10 @@ long solve(float x, float y)
 {
     long i, j;
 
-    i = * (long *) &x;
+    i = *(long*) &x;
     i *= 0.5F;
 
-    j = * (long *) &y;
+    j = *(long*) &y;
 
     return j + i;
 }
