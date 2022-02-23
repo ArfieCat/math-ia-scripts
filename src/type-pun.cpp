@@ -35,7 +35,7 @@ int main()
     {
         i = solve(x);
 
-        fprintf(f, "%f,%x\n", x, i);
+        fprintf(f, "%f,'%x\n", x, i);
     }
 
     fclose(f);
